@@ -850,7 +850,7 @@ def results():
                 user_results.append({
                     'filename': filename,
                     'path': os.path.join('results', f'user_{current_user.id}', filename),
-                    'date': datetime.datetime.fromtimestamp(os.path.getmtime(os.path.join(results_dir, filename))).strftime('%Y-%m-%d %H:%M')
+                    'date': datetime.fromtimestamp(os.path.getmtime(os.path.join(results_dir, filename))).strftime('%Y-%m-%d %H:%M')
                 })
     
     return render_template('results.html', user_results=user_results)
