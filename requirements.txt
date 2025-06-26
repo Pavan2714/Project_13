@@ -1,6 +1,7 @@
 absl-py==2.1.0
+setuptools>=60.0.0
+pip>=21.3
 anyio==4.9.0
-setuptools
 appnope==0.1.4
 argon2-cffi==25.1.0
 argon2-cffi-bindings==21.2.0
