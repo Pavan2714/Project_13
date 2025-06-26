@@ -4,8 +4,17 @@
     {
       "src": "webapp.py",
       "use": "@vercel/python",
-      "config": { "pythonVersion": "3.10" }
+      "config": {
+        "pythonVersion": "3.10",
+        "maxLambdaSize": "50mb"
+      }
     }
   ],
-  "routes": [{ "src": "/(.*)", "dest": "webapp.py" }]
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "webapp.py",
+      "methods": ["GET", "POST"]
+    }
+  ]
 }
