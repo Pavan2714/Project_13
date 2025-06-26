@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="100" fill="#4a5568"/>
+  
+  <!-- User Icon -->
+  <g fill="#e2e8f0">
+    <!-- Head -->
+    <circle cx="100" cy="85" r="40"/>
+    
+    <!-- Body -->
+    <path d="M100,135 C65,135 35,165 35,200 L165,200 C165,165 135,135 100,135 Z"/>
+  </g>
+  
+  <!-- Gradient Overlay -->
+  <circle cx="100" cy="100" r="100" fill="url(#grad)" opacity="0.2"/>
+  
+  <!-- Define Gradient -->
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg>

@@ -5,15 +5,6 @@
 *.db
 yolov11.db
 
-# User uploads/results
-uploads/
-static/uploads/
-static/results/
-
-# Output files
-output.mp4
-runs/
-
 # Cache and temp files
 __pycache__/
 *.pyc
@@ -34,7 +25,3 @@ Thumbs.db
 # IDE/project files
 .vscode/
 .idea/
-
-# Add these lines to your .gitignore
-config.py
-email_config.py 
