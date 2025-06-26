@@ -1,6 +1,7 @@
 # Core Flask & Web Server
-setuptools==70.0.0  # Ensures setuptools is installed first
-python-distutils==1.0.0  # Explicitly includes distutils
+setuptools==70.0.0
+wheel==0.43.0
+pip==24.0
 Flask==2.3.3
 flask-cors==5.0.1
 Flask-Login==0.6.2
