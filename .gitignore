@@ -1,19 +1,18 @@
-# Model weights
-*.pt
+# User uploads/results
+uploads/
+static/uploads/
+static/results/
 
-# Database
-*.db
-yolov11.db
+# Output files
+output.mp4
+runs/
+datasets/
 
 # Cache and temp files
 __pycache__/
 *.pyc
 *.pyo
 *.cache
-
-# Environment/config
-.env
-.env.*
 
 # System files
 .DS_Store
